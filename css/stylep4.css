@@ -1,0 +1,70 @@
+
+.pagina{
+    display: grid;
+    grid-template-columns: repeat(1);
+    gap: 8px;
+}
+.pagina__seg1{
+    font-size: 50px;
+    margin: 70px;
+    text-align: center;
+}
+.pagina__seg2{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+.tag1, .tag2, .tag3{
+    font-size: 25px;
+    text-align: left;
+    max-width: 500px;
+}
+.num1, .num2, .num3{
+    color: grey;
+    font-size: 50px;
+}
+.tag1 img, .tag2 img, .tag3 img{
+    width: 100%;
+    max-width: 470px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.info1, .info2, .info3{
+    max-width: 471px;
+    margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .pagina__seg2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tag1, .tag2, .tag3 {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .pagina__seg1 {
+        font-size: 40px;
+    }
+
+    .tag1, .tag2, .tag3 {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .pagina__seg1 {
+        font-size: 30px;
+    }
+
+    .num1, .num2, .num3 {
+        font-size: 40px;
+    }
+
+    .tag1 img, .tag2 img, .tag3 img {
+        width: 100%;
+    }
+}

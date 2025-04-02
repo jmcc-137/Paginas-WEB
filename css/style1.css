@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  font-family: "Headland One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .pagina{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -20,7 +27,7 @@
 }
 .title h1{
     padding: 15px;
-    width: 800px;
+    width: 900px;
 }
 .pagina__info{
     grid-column: span 5/ span 5;
@@ -80,4 +87,38 @@
 footer{
     background-color: brown;
     color: white;
+}
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .pagina__imgs img, .pagina__imgs2 img {
+        max-width: 150px; 
+    }
+
+    .info p {
+        max-width: 90%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .pagina__imgs, .pagina__imgs2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagina__imgs img, .pagina__imgs2 img {
+        max-width: 100%; 
+    }
+
+    .button a {
+        width: 100px;
+        font-size: 14px;
+    }
 }

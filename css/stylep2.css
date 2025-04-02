@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Headland One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1);
+    gap: 8px;
+    padding: 20px;
+}
+
+.pagina__title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.pagina__info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info {
+    font-size: 25px;
+    color: gray;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.pagina__img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagina__img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    grid-row-start: -2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pagina__title {
+        font-size: 30px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .pagina__img img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .pagina__title {
+        font-size: 24px;
+    }
+
+    .info {
+        font-size: 18px;
+    }
+
+    .pagina__img img {
+        max-width: 100%;
+    }
+
+    .button a {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
