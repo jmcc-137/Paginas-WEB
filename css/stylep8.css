@@ -1,0 +1,113 @@
+@import url(variables.css);
+
+/* Restablecer estilos predeterminados */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.section1{
+    margin-top: 40px;
+}
+.section2{
+    margin-top: 40px;
+}
+.info{
+    position: absolute;
+    top: 142px;
+    left: 64px;
+}
+/* Título dentro del texto */
+.title h1 {
+  font-family: title;
+  font-size: 66px;
+  color: var(--color-1); /* Color del título (definido en variables.css) */
+}
+
+/* Párrafo dentro del texto */
+.text p {
+  margin-top: 24px;
+  font-family: parraf;
+  font-size: 22px;
+  color: var(--color-1); /* Color del párrafo (definido en variables.css) */
+}
+
+/* Botón */
+button {
+  font-size: 20px;
+  margin-top: 24px;
+  width: 215px;
+  height: 66px;
+  border-radius: 40px;
+  border: white; /* Borde blanco (transparente) */
+}
+
+.imgright_two {
+    display: flex;
+    flex-direction: row;
+    
+}
+.imgright_two img{
+    height: 43.8vh;
+    
+    margin-top: -5px;
+    margin-right: 12px;
+    margin-left: -12px;
+}
+.imgleft_one img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.mesage1{
+    position: absolute;
+    top: 900px;
+    left: 24px;
+    
+}
+.mesage1 h5{
+    font-family: title;
+    font-size: 56px;
+    color: var(--color-3);
+    
+}
+.mesage1 small{
+    font-size: 16px;
+    color: var(--color-3);
+}
+.mesage2{
+    position: absolute;
+    top: 900px;
+    left: 480px;
+}
+.mesage2 h5{
+    font-family: title;
+    font-size: 56px;
+    color: var(--color-3);
+}
+.mesage2 small{
+    font-size: 16px;
+    color: var(--color-3);
+}
+.mesage3{
+    position: absolute;
+    top: 48px;
+    right: 48px;
+}
+.mesage3 h5{
+    font-family: title;
+    font-size: 56px;
+    color: var(--color-3);
+}
+.mesage3 small{
+    font-size: 16px;
+    color: var(--color-3);
+}

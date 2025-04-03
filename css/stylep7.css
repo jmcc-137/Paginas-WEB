@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Nunito Sans", sans-serif;
+    
+  }
+.pagina{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 64px;
+}
+.leftimag{
+    z-index: -1;
+}
+.superiorimg{
+    position: absolute;
+    color: white;
+    top: 0;
+    z-index: -1;
+}
+
+.info{
+    position: absolute;
+    top: 660px;
+    left: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parrafo{
+    font-family: parraf;
+    font-size: 24px;
+    color: var(--color-1);
+    
+}
+button{
+    background: --color-1;
+    width: 222px;
+    height: 66px;
+    font-size: 22px;
+    border-radius: 40px;
+    color: var(--color-2);
+    margin-top: 38px;
+    border: white;
+}
+.sec2{
+    position: relative;
+}
+.rightimg{
+    background-image: url('/img/imgp7/image\ bg\(1\).png');
+    z-index: -1;
+}
+.decoracion{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.info2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:260px;
+    left: 63px;
+}
+.title{
+    font-family: title;
+    font-size: 56px;
+    color: var(--color-1);
+}
+.bloque1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 630px;
+    height: 184px;
+    gap: 150px;
+}
+.texto1 h4{
+    margin-top: 64px;
+    font-family: subtitles;
+    font-size: 40px;
+    color: var(--color-1);
+    opacity: 50%;
+}
+.texto1 p{
+    font-family: parraf;
+    font-size: 24px;
+    color: var(--color-1);
+}
+.bloque2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 630px;
+    height: 184px;
+    margin-top: 64px;
+    gap: 150px;
+}
+.texto2 h4{
+    margin-top: 64px;
+    font-family: subtitles;
+    font-size: 40px;
+    color: var(--color-1);
+    opacity: 50%;
+}
+.texto2 p{
+    font-family: parraf;
+    font-size: 24px;
+    color: var(--color-1);
+}
