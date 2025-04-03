@@ -1,12 +1,11 @@
-@import url(variables.css);
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* Restablecer estilos predeterminados */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 /* Contenedor principal */
 .container {
   display: grid;
@@ -26,17 +25,19 @@
 }
 /* Título dentro del texto */
 .title h1 {
-  font-family: title;
   font-size: 66px;
-  color: var(--color-1); /* Color del título (definido en variables.css) */
+  color: white; /* Color del título (definido en variables.css) */
 }
 
 /* Párrafo dentro del texto */
 .text p {
+
   margin-top: 24px;
-  font-family: parraf;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
   font-size: 22px;
-  color: var(--color-1); /* Color del párrafo (definido en variables.css) */
+  color: white; /* Color del párrafo (definido en variables.css) */
 }
 
 /* Botón */
@@ -74,14 +75,13 @@ button {
     
 }
 .mesage1 h5{
-    font-family: title;
     font-size: 56px;
-    color: var(--color-3);
+    color:grey;
     
 }
 .mesage1 small{
     font-size: 16px;
-    color: var(--color-3);
+    color: grey;
 }
 .mesage2{
     position: absolute;
@@ -89,13 +89,12 @@ button {
     left: 480px;
 }
 .mesage2 h5{
-    font-family: title;
     font-size: 56px;
-    color: var(--color-3);
+    color: grey;
 }
 .mesage2 small{
     font-size: 16px;
-    color: var(--color-3);
+    color: grey;
 }
 .mesage3{
     position: absolute;
@@ -103,11 +102,10 @@ button {
     right: 48px;
 }
 .mesage3 h5{
-    font-family: title;
     font-size: 56px;
-    color: var(--color-3);
+    color: grey;
 }
 .mesage3 small{
     font-size: 16px;
-    color: var(--color-3);
+    color: grey;
 }
