@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background: #2F2F2F;
+}
+main{
+    margin: 50px;
+}
+
+.ALL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.section__left{
+    width: 30%;
+    gap: 20px;
+}
+
+.section__left__1{
+    font-size: 6rem;
+    color: #FEC3C7;
+}
+
+.section__left__2{
+    font-size: 6rem;
+    color: #9AD7F3;
+}
+
+.section__left__3{
+    font-size: 6rem;
+    color: #6BDFDA;
+}
+.section__left__sub{
+    display: flex;
+    flex-direction: column;
+}
+.section__left__parraf{
+    font-size: 2rem;
+    color: #fff;
+    width: 90%;
+}
+.section__left__botton{
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 120px; 
+    color: #000;
+    text-decoration: none;
+}
+.section__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+.section__right section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section__right section img{
+    width: 172px;
+    height: 192px;
+    padding: 5px;
+}

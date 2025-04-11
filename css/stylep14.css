@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagina{
+    display: grid;
+    grid-template-columns: 35rem 35rem 35rem;
+    justify-content: center;
+}
+.bloque1{
+    margin: 65px;
+}
+.bloque1 h1{
+    font-size: 60px;
+}
+.sello .icono{
+  position:absolute;
+  margin-left: 300px;   
+}
+.bloque1,
+.bloque2,
+.bloque3{
+    
+    margin-top: 100px;
+}
+.num1,
+.num2{
+   display: flex;
+   font-size: 25px;
+
+}
+p{
+    font-size: 20px;
+    width: 390px;
+    margin: 20px;
+
+}
+.n1,.n2,.t1,.t2{
+    color: gray;
+}
+
+img{
+    border-radius: 50px;
+}
